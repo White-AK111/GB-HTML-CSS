@@ -1,0 +1,229 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.catalogH2{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.catalogShortP{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.catalogShortP::first-letter{
+    color: #f54b08;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.catalogLongP{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.catalogLongP::first-letter{
+    color: #f54b08;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.catalogList {
+    /* list-style-type: none; */
+    margin-left: 20px;
+    list-style-image: url('../img/KTM-Logo.png');
+    font-size: 18px;
+    font-stretch: semi-expanded;
+    color: #3d0d00;
+}
+
+.customButton, .customButtonSmall {
+    background: #f17d5f;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.customButton {
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.customButtonSmall {
+    font-size: 18px;
+    font-weight:normal;
+}
+
+.customButton:hover {
+    background-color: #ff631b ;
+}
+
+.customButtonSmall:hover {
+    background-color: #f75003 ;
+}
+
+.customButton:active {
+    background-color: #b85a2f ;
+}
+
+.customButtonSmall:active {
+    background-color: #c04208 ;
+}
+
+.price {
+    color: rgb(255, 0, 0); 
+    font-size: 1em
+}
+
+.previewImg img {
+    outline: 4px solid #f17d5f;
+}
+
+.previewImg img:hover {
+    outline: transparent;
+    /* outline: #f8f8f8; */
+}
+
+/* img[alt="KTM 890 ADVENTURE R Full"],
+img[alt="KTM 1290 SUPER ADVENTURE S Full"],
+img[alt="KTM 1290 SUPER DUKE GT Full"] {
+    outline: 4px solid #f17d5f;
+} */
+
+form .row {
+    display: block;
+    padding: 7px 8px;
+    margin-bottom: 7px;
+    /* width: 33px; */
+    /* height: 15px; */
+}
+
+form .row:hover {
+    background: #f8d3a8;
+    /* width: 450px; */
+}
+
+form label {
+    display: inline-block;
+    font-size: 1.2em;
+    width: 120px;
+    padding: 6px 0;
+    color: #000000;
+    vertical-align: top;
+}
+
+form .req {
+    color: #f17d5f;
+}
+
+form .note {
+    font-size: 1.2em;
+    line-height: 1.33em;
+    font-weight: normal;
+    padding: 2px 7px;
+    margin-bottom: 10px;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+}
+
+form .txtarea {
+    text-transform: capitalize;
+}
+
+/* WebKit */
+::-webkit-input-placeholder {
+    color: #aaafbd;
+    font-style: normal;
+}
+
+/* Mozilla Firefox 4 to 18 */
+:-moz-placeholder {
+    color: #aaafbd;
+    font-style: normal;
+}
+
+/* Mozilla Firefox 19+ */
+::-moz-placeholder {
+    color: #aaafbd;
+    font-style: normal;
+}
+
+/* Internet Explorer 10+ */
+:-ms-input-placeholder {
+    color: #aaafbd;
+    font-style: normal;
+}
+
+form .txt {
+    display: inline-block;
+    padding: 8px 9px;
+    padding-right: 30px;
+    width: 240px;
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #000000;
+    text-transform: capitalize; 
+}
+
+/* form #email:focus{
+    background-color:rgb(0, 0, 0)!important;
+    color: rgb(235, 106, 59) !important;
+} */
+
+form #email:valid{
+    background-color:rgb(231, 248, 210)!important;
+    color: rgb(65, 173, 15) !important;
+}
+
+form #email:invalid{
+    background-color:rgb(243, 180, 180)!important;
+    color: red !important;
+}
+
+.paramsTable {
+    border-collapse: collapse;
+    width: 700px;
+    text-align: center;
+}
+
+.paramsTable tr td{
+    border: 1px solid orangered;
+}
+
+.paramsTable tr th{
+    border: 1px solid orangered;
+}
+
+.paramsTable tr:first-child th{
+    background: #f7b259;
+    padding: 15px;
+  }
+
+/* .vertical {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 200%;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    white-space: nowrap;
+  } */
